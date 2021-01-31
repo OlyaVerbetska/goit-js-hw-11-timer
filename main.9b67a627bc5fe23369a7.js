@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{L1EO:function(e,o,t){},QfWi:function(e,o,t){"use strict";t.r(o);t("L1EO"),t("VA1H")},VA1H:function(e,o){Math.floor(time/864e5),Math.floor(time%864e5/36e5),Math.floor(time%36e5/6e4),Math.floor(time%6e4/1e3);var t=new function(e,o){this.selector=e,this.targetDate=o}(1,-1974);console.log(t)}},[["QfWi",1]]]);
+//# sourceMappingURL=main.9b67a627bc5fe23369a7.js.map
