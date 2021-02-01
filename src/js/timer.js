@@ -56,5 +56,5 @@ function pad(value) {
 
 const timerOne = new CountdownTimer(
   2,
-  new Date('Sun Jan 31 2021 22:35:59'),
+  new Date('Sun Feb 11 2021 22:35:59'),
 ).countdown();
