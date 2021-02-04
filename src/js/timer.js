@@ -2,12 +2,12 @@
 const refs = {
   days: document.querySelector('[data-value="days"]'),
   hours: document.querySelector('[data-value="hours"]'),
-  minutes: document.querySelector('[data-value="mins"]'),
+  mins: document.querySelector('[data-value="mins"]'),
   seconds: document.querySelector('[data-value="secs"]'),
 };
 refs.days.textContent = '--';
 refs.hours.textContent = '--';
-refs.minutes.textContent = '--';
+refs.mins.textContent = '--';
 refs.seconds.textContent = '--';
 
 class CountdownTimer {
@@ -34,7 +34,7 @@ function updateClockFace(time) {
   const secs = pad(Math.floor((time % (1000 * 60)) / 1000));
   refs.days.textContent = `${days}`;
   refs.hours.textContent = `${hours}`;
-  refs.minutes.textContent = `${mins}`;
+  refs.mins.textContent = `${mins}`;
   refs.seconds.textContent = `${secs}`;
 
   if (days <= 0) {
@@ -44,7 +44,7 @@ function updateClockFace(time) {
     refs.hours.textContent = '00';
   }
   if (mins <= 0) {
-    refs.minutes.textContent = '00';
+    refs.mins.textContent = '00';
   }
   if (secs <= 0) {
     refs.seconds.textContent = '00';
